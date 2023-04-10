@@ -1,0 +1,41 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Object destructuring</h1>
+        <script>
+
+const students={
+
+
+regno:101,
+name:"Arun"
+};
+
+
+const {regno,name}=students;
+
+console.log(regno);
+console.log(name);
+
+
+//using functions
+
+
+const customers={
+    id:201,
+name1:"Velu",
+city:"madurai"
+};
+
+//const {id,name1,city}=customers;
+
+function display()
+{
+    console.log(`Your id is ${customers.id} and Your name is ${customers.name1} and Your city is ${customers.city}`);
+}
+display(customers);
+
+
+    
+    </script>
+    </body>
+</html>
