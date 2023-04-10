@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Spread Operator</h1>
+
+<script>
+
+const colors=["red","orange","blue","violet","green"];
+let newColors=[...colors,"black","white"]; // also called as copying an array
+console.log(colors);
+console.log(newColors);
+
+
+//without using the spread operator (it will affect the original array)
+
+let places=["trichy","madurai","vellore","coimbatore"];
+
+let newPlaces=places.push("chennai");
+console.log(places);
+console.log(newPlaces);
+
+
+
+//with using the spread operator (it will not affect the original array)
+
+let food=["dosa","idly","chappathi"];
+let newFood=[...food,"biriyani"];
+console.log(food);
+console.log(newFood);
+
+
+//using strings
+
+
+let content=["a","b",..."cde","f"];
+console.log(content);        //it spreads out each specific character of the "cde" string into individual characters
+
+
+
+let names=["venkat","arun","arjun","rahul"];
+let newNames=[...names,"ravi"]; 
+console.log(newNames);
+
+
+
+
+</script>
+
+    </body>
+</html>
