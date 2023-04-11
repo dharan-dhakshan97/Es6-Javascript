@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Function Apply</h1>
+        <script>
+const person={
+    fullname:function()
+    {
+        return this.firstname + " " + this.lastname;
+    }
+}
+
+const person1={
+    firstname:"John",
+    lastname:"Ben"
+}
+
+console.log(person.fullname.apply(person1));
+
+
+//using parameters
+
+
+
+const customers={
+    fullname:function(city,country)
+    {
+        return this.firstname + " " + this.lastname;
+    }
+}
+
+const person2={
+    firstname:"Venkat",
+    lastname:"Charan"
+}
+console.log(customers.fullname.apply(person2,['Cuddalore','Tamilnadu']));
+
+
+
+
+
+        </script>
+    </body>
+</html>
