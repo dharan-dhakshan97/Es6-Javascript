@@ -1,0 +1,34 @@
+<html>
+    <body>
+<h1 style="text-align:center">Set Methods</h1>
+<script>
+
+let arr=[1,2,3,4,5,6,7,8,9];
+let s=new Set(arr);
+console.log(s.add(10));
+
+//delete
+console.log(s.delete(5));
+
+//size
+console.log(s.size);
+
+//clear
+console.log(s.clear());
+
+
+
+//remove the duplicate elements
+
+let x=[1,2,3,3,4,5,5,6,7,7,8];
+let y=new Set(x);
+console.log(y);
+let z=[...y]; //while using the spread operator the address and memory is different
+console.log(z);
+
+
+
+
+</script>
+    </body>
+</html>
