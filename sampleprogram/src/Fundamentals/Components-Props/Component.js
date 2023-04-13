@@ -8,8 +8,9 @@ const Component = (props) => {
   <h3 style={{textAlign:'center'}}>{props.h1}Welcome to our React Js{props.h2}</h3>
   {/* //passing a adata as a string  */}
 {/* <p style={{color:'green'}}>{greet}</p> */}
+
 <Props name="Venkat!"></Props> 
-<Props></Props> 
+
    </>
   )
 }

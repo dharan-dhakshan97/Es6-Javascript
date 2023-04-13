@@ -1,5 +1,4 @@
 import React from 'react'
-import Array from "./Array";
 const Props = (props) => {
   const x=10;
   const text="Hi Hello";
@@ -12,11 +11,6 @@ const Props = (props) => {
    <p>Welcome to our Cheif Guests {props.name}</p>
 <p style={{color:'blue'}}>{x} </p>
 {/* <p greet={texts}></p> */}
-
-
-<Array></Array>
-
-
 
 </div>
   
