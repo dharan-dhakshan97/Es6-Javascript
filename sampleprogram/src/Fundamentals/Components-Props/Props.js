@@ -11,7 +11,6 @@ const Props = (props) => {
    <p>Welcome to our Cheif Guests {props.name}</p>
 <p style={{color:'blue'}}>{x} </p>
 {/* <p greet={texts}></p> */}
-
 </div>
   
    </>
