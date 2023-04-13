@@ -1,5 +1,5 @@
 import React from 'react'
-import Props from "../Components-Props/Props";
+import Props from "./Props";
 const Component = (props) => {
 
   
