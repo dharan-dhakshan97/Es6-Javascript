@@ -1,4 +1,5 @@
-import React from 'react'
+
+import React from 'react';
 const Props = (props) => {
   const x=10;
   const text="Hi Hello";
@@ -17,4 +18,4 @@ const Props = (props) => {
   )
 }
 
-export default Props
+export default Props;
