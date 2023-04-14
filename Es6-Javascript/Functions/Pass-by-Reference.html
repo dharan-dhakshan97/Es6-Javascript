@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <h1 style="text-align:center"> Pass By Reference</h1>
+        <script>
+let person={
+
+    name:"John",
+    age:25
+}
+
+function IncreaseAge(obj)
+{
+    obj.age+=1;
+}
+
+IncreaseAge(person);  // returns what type...
+console.log(person);   
+
+
+
+
+
+let person1={
+id:1,
+    name:"Venkat"
+
+}
+
+function Increase(obs)
+{
+    obs.id+=2;
+}
+Increase(person1);    // returns the calling a function
+console.log(person1);
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

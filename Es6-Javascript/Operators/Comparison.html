@@ -1,0 +1,133 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Comparison Operator</h1>
+        <script>
+
+// In Comparison Operator using Numbers
+x=10;
+y=5;
+if(x>y)
+{
+    console.log("X is greater"); //  > greater
+}
+else{
+    console.log("Y is greater");
+}
+
+// >= greater than equal to 
+if(x>=y)
+{
+    console.log("X is greater than equal to Y");
+}
+else{
+    console.log("Y is greater than equal to X");
+}
+
+a=15;
+b=5;
+if(a<b)
+{
+    console.log("A is lesser");  // < lesser
+}
+else{
+    console.log("B is lesser");
+}
+
+
+// <= lesser than equal to
+
+if(a<=b)
+{
+    console.log("A is lesser than equal to B");
+}
+else{
+    console.log("B is lesser than equal to A");
+}
+
+
+//In Comparison Operator using String
+
+let name1="Venkat";
+let name2="Anbu";
+if(name1>name2)
+{
+    console.log("Name1 is greater"); // When you use string in comparison operator it starts dictionary mode 
+}
+else{
+    console.log("Name2 is greater");
+}
+
+let place1="Banglore";
+let place2="Banglore";
+if(place1>=place2)
+{
+    console.log("True");
+}
+else{
+    console.log("False");
+}
+
+
+//Equality Operators   ==:equal   ===:equalvalue and same type
+
+//Equality Operators   !=:not equal   !===:not equal value or not same type
+
+
+
+//a)equal value  == (Number, String, Boolean)
+
+    console.log(1 == 1); // Lose equality number == number
+    console.log('1' == '1');//string==string
+    console.log(true == false);//boolean==boolean
+    console.log(1=="1")//number==string
+    console.log(true=='1');//boolean==string
+    console.log(false=='1')//boolean==string when give this format (false="1") error: invalid left-hand-side in assignment
+    console.log(true == 1);//boolean==number
+    console.log(false == 1);//boolean==number
+
+
+
+//b)equalvalue and same type === (Number, String, Boolean)
+
+    console.log(1 ===1); // Lose equality number === number
+    console.log('1' ==='1');//string===string
+    console.log(true ===false);//boolean===boolean
+    console.log(1 === "1")//number===string
+    console.log(true === '1');//boolean===string
+    console.log(false === '1')//boolean===string when give this format (false="1") error: invalid left-hand-side in assignment
+    console.log(true === 1);//boolean===number
+    console.log(false === 1);//boolean===number
+
+
+
+
+//c) Not equal != (Number,String,Boolean)
+
+    console.log(1 != 1); // Lose equality number !=number
+    console.log('1' != '1');//string!=string
+    console.log(true != false);//boolean!=boolean
+    console.log(1 != "1")//number!=string
+    console.log(true != '1');//boolean!=string
+    console.log(false != '1')//boolean!=string when give this format (false="1") error: invalid left-hand-side in assignment
+    console.log(true != 1);//boolean!=number
+    console.log(false != 1);//boolean!=number
+
+
+
+    //d)Not equal value or not same type
+
+
+    console.log(1 !== 1); // Lose equality number !==number
+    console.log('1' !== '1');//string!==string
+    console.log(true !== false);//boolean!==boolean
+    console.log(1 !== "1")//number!==string
+    console.log(true !== '1');//boolean!==string
+    console.log(false !== '1')//boolean!==string when give this format (false="1") error: invalid left-hand-side in assignment
+    console.log(true !== 1);//boolean!==number
+    console.log(false !== 1);//boolean!==number
+
+
+
+        </script>
+    </body>
+</html>

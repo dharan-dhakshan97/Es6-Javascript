@@ -1,0 +1,53 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Passing One&Two  Parameters In Normal & Arrow Functions</h1>
+        <script>
+
+
+//Passing one parameter using normal function
+
+function candidate(name)
+{
+    return "My name is " + name;   // + concat
+
+}
+console.log(candidate("Venkat"));
+
+
+//Passing Two parameters using normal function
+
+function candidates(name,place)
+{
+    return "My Name is " + name, "i am from " + place;  //?
+    console.log("My Name is " + name, "i am from " + place);
+}
+
+console.log(candidates("Krishna","Banglore"));
+
+
+
+//Passing one parameter using arrow function
+
+
+
+let customer=(id)=> "your id is " + id;
+console.log(customer(101));
+
+
+
+//Passing Two parameters using arrow function
+
+
+let customers=(id,name)=> "your id and name is " + id + name;
+{
+console.log(customers(101 , "Venkat"));
+}
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<html>
+    <body>
+        <h1 style="text-align:center">Function Definition</h1>
+        <script>
+
+//function declaration
+
+function sum(x,y)
+{
+    return x+y;
+}
+console.log(sum(3,4));
+
+
+// function expression
+ var num=function(a,b)
+ {
+return a-b;
+ }
+console.log(num(5,3));
+
+
+
+// stored in avariable using function expression
+
+var num1=function(c,d)
+{
+    return c/d;
+};
+    let e =num1;  // actual expression is let e=num1(5,5);
+console.log(e(5, 5)); //  whatever you wants to console.log(num1(5,5));
+
+
+//uisng constructor but ther is no need even using function expression gives same result given above
+
+
+let div=new Function("f","g","return f * g");
+let j=div;
+console.log(j(4,4));
+
+
+// function in function (parametrized the anonymous function)
+
+
+    var sums = function (r, s) 
+{
+    return r+s;
+}
+    function numbers()
+{
+    var add;
+    add=sums;
+console.log("The summation of two numbers is:" +add);
+}
+console.log(sum(10,10));
+
+
+
+
+// The hoisting is only works on functon declaration...
+
+functioname();
+
+    let l = 10;
+    let h = 10
+function functioname(l,h)
+{
+    if(l==h)
+    {
+        console.log("Both are equal");
+    }
+    else{
+        console.log("both are not equal");
+    }
+}
+
+
+//let using in on function expression
+
+
+    
+    console.log(i(5, 4));   //it makes error  
+var i=function(m,n)
+{
+    return m%n;
+}
+
+//self invoking function  
+
+
+(function()
+{
+    console.log("hello world");
+}());
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
