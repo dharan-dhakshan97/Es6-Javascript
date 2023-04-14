@@ -15,5 +15,4 @@ const Nestedchild = ({arr}) => {
     </>
   )
 }
-
 export default Nestedchild;
