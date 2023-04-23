@@ -7,13 +7,13 @@ const Conditionallyruneffects= () => {
 
   useEffect(() => {
     console.log("Updating the UseEffect");
-    document.title = `Your are ${count} times`
+    document.title = `Your are ${count} times`;
   },[count]);
 
   return (
     <>
     <input type="text" value={name} onChange={e=>setName(e.target.value)}/>
-      <button onClick={() => setCount(count + 1)}> Click Me {count} Times!</button>
+    <button onClick={() => setCount(count + 1)}> Click Me {count} Times!</button>
     </>
   );
 };
