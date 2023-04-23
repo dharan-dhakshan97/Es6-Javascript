@@ -1,12 +1,13 @@
 import React from 'react'
-import Effectsapicall from "./Hooks/Effects/Effectsapicall";
-
+ import Useeffecthook from "./Hooks/Effects/Useeffecthook";
+// import Conditionallyruneffects from "./Hooks/Effects/Conditionallyruneffects";
 const App = () => {
   return (
     <>
-    <Effectsapicall/>
+      <Useeffecthook/>
+      {/* <Conditionallyruneffects/> */}
     </>
-  )
+  );
 }
 
 export default App;
