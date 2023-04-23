@@ -11,8 +11,6 @@ useEffect(()=>
   document.title=(`Your are ${count} times`);
 })
 
-
-
   return (
     <>
     
