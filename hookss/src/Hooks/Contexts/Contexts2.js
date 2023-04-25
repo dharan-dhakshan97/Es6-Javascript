@@ -9,16 +9,13 @@ const Contexts2 = () => {
 {data=>
     {
         return (
-        
         <LoginContext.Consumer>
-
-          {login=>{
+    {login=>{
               return <div> I Know {data}. and I  Know also {login} </div>;
             }
           }
         </LoginContext.Consumer>
-        
-        )
+         )
     }
 }
 </UserContext.Consumer>
