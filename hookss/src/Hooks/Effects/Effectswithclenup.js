@@ -6,7 +6,8 @@ const Effectswithclenup = () => {
   return (
     <>
     <div>
-        <button onClick={()=>setDisplay(!display)}>ToggleDisplay</button>
+        <button onClick={()=>setDisplay(!display)}>ToggleDisplay</button> 
+             
         {display && <Runeffectsonlyonce/>}
         </div>
     </>
